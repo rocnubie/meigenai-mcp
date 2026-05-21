@@ -1,0 +1,27 @@
+{
+  "name": "msa-meigenai-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for Meigen AI — canonical website knowledge for AI clients.",
+  "homepage": "https://meigenai.online",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "claude",
+    "cursor",
+    "windsurf",
+    "meigenai",
+    "image-gen",
+    "image-inspiration",
+    "pricing"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4C0519"/>
+      <stop offset="60%" stop-color="#BE185D"/>
+      <stop offset="100%" stop-color="#A21CAF"/>
+    </linearGradient>
+    <linearGradient id="og-mark" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F9A8D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect x="80" y="80" width="120" height="120" rx="28" fill="url(#og-mark)" opacity="0.95"/>
+  <text x="105" y="170" font-family="Inter, system-ui, sans-serif" font-size="68" font-weight="800" fill="#4C0519">M</text>
+  <text x="80" y="320" font-family="Inter, system-ui, sans-serif" font-size="84" font-weight="800" fill="#FFFFFF">Meigen AI</text>
+  <text x="80" y="400" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="500" fill="#FFFFFF" opacity="0.9">Curated meigen ai prompts. One-click generation.</text>
+  <text x="80" y="460" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="500" fill="#FFFFFF" opacity="0.85">5,000+ image prompts. Try them instantly.</text>
+  <text x="80" y="560" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#F9A8D4">meigenai.online</text>
+</svg>

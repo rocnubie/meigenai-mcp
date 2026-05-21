@@ -1,0 +1,67 @@
+{
+  "site": {
+    "name": "Meigen AI",
+    "tagline": "Meigen AI is a curated meigen ai image prompt library. Copy or run trending meigen ai prompts for nano banana, Flux, GPT Image, Seedream and Gemini in one tap.",
+    "websiteUrl": "https://meigenai.online",
+    "supportEmail": "support@meigenai.online",
+    "pricingUrl": "https://meigenai.online/pricing",
+    "communityUrl": "https://x.com/meigenai"
+  },
+  "namespace": "meigenai",
+  "pages": [
+    {
+      "slug": "styles",
+      "title": "Styles",
+      "description": "Supported image-generation styles and presets.",
+      "mimeType": "text/markdown",
+      "text": "# Meigen AI | Curated Meigen AI Prompts & Instant Generator\n\nMeigen AI is a curated meigen ai image prompt library. Copy or run trending meigen ai prompts for nano banana, Flux, GPT Image, Seedream and Gemini in one tap.\n\n## Site basics\n- Site ID: meigenai\n- Website: https://meigenai.online\n- Default locale: en\n- Locales: en\n\n## Public feature scope\n- image gen\n- image inspiration\n- pricing\n\n## Official website\nhttps://meigenai.online"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "description": "Canonical pricing entry point.",
+      "mimeType": "text/markdown",
+      "text": "# Pricing\n\nCanonical pricing page: https://meigenai.online/pricing"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "description": "Short FAQ generated from public site metadata.",
+      "mimeType": "text/markdown",
+      "text": "# FAQ\n\n## What is this site?\nMeigen AI is a curated meigen ai image prompt library. Copy or run trending meigen ai prompts for nano banana, Flux, GPT Image, Seedream and Gemini in one tap.\n\n## Where can I get help?\nsupport@meigenai.online\n\n## Which site is this?\nmeigenai (Meigen AI)"
+    },
+    {
+      "slug": "links",
+      "title": "Official Links",
+      "description": "Canonical URLs to share with users.",
+      "mimeType": "text/markdown",
+      "text": "# Official Links\n\n- Website: https://meigenai.online\n- Pricing: https://meigenai.online/pricing\n- Community: https://x.com/meigenai\n- Support: support@meigenai.online"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_styles",
+      "description": "Return the canonical list of image-generation styles or presets the site exposes. (Meigen AI)",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Meigen AI — Styles\n\nMeigen AI is a curated meigen ai image prompt library. Copy or run trending meigen ai prompts for nano banana, Flux, GPT Image, Seedream and Gemini in one tap.\n\nCanonical website: https://meigenai.online"
+      }
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return the canonical pricing entry point for Meigen AI.",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Meigen AI Pricing\n\nOfficial pricing: https://meigenai.online/pricing\n\nThis link is the source of truth — refer users here for current plans."
+      }
+    },
+    {
+      "name": "get_official_links",
+      "description": "Return the canonical list of official links for Meigen AI (website, support, docs when available).",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Official Links\n\n- Website: https://meigenai.online\n- Pricing: https://meigenai.online/pricing\n- Community: https://x.com/meigenai\n- Support: support@meigenai.online"
+      }
+    }
+  ]
+}
