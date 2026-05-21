@@ -2,6 +2,7 @@
 
 > Meigen AI | Curated Meigen AI Prompts & Instant Generator
 
+[![MCP Badge](https://lobehub.com/badge/mcp/rocnubie-meigenai-mcp)](https://lobehub.com/mcp/rocnubie-meigenai-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Zero Config](https://img.shields.io/badge/setup-zero--config-7c3aed)](#installation)
@@ -64,19 +65,33 @@ _Input:_ no parameters. _Returns:_ text/markdown.
 - `site://meigenai/faq` — Short FAQ generated from public site metadata.
 - `site://meigenai/links` — Canonical URLs to share with users.
 
+## Prompts
+
+### `tell_me_about_meigenai`
+Summarize what the site is, who it's for, and how it works. — Meigen AI
+
+### `try_image_style_meigenai`
+Recommend a starting image-generation style for a stated goal. — Meigen AI
+
 ## Installation
 
-Clone the repository and point your MCP client at the local entry point.
+### Install via Smithery
 
 ```bash
-git clone https://github.com/<your-account>/meigenai-mcp.git
+npx -y @smithery/cli install meigenai-mcp --client claude
+```
+
+(Replace `claude` with `cursor`, `windsurf`, or `continue` for those clients.)
+
+### Install from source
+
+```bash
+git clone https://github.com/rocnubie/meigenai-mcp.git
 cd meigenai-mcp
 pnpm install
 ```
 
-### Claude Desktop
-
-Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
+Then add to your MCP client config (`claude_desktop_config.json` for Claude Desktop, `mcp.json` for Cursor / Windsurf / Continue):
 
 ```json
 {
@@ -90,10 +105,6 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
   }
 }
 ```
-
-### Cursor / Windsurf / Continue
-
-Use the same `mcpServers` block in your client's MCP configuration file.
 
 ### Debug with MCP Inspector
 
@@ -113,7 +124,6 @@ npx @modelcontextprotocol/inspector node src/index.mjs
 ```bash
 pnpm install
 pnpm start                 # run the server over stdio
-pnpm test                  # run the package tests
 ```
 
 ## License
